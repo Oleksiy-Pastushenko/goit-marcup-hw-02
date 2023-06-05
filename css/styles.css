@@ -1,28 +1,37 @@
 body {
-    font-family: 'Roboto';
+    font-family: Roboto, sans-serif;
+    color: #212121;
+}
+:root {
+    --maincolor: #757575;
+    --secondarycolor: #2196F3;
+    --accentcolor: #FFFFFF;
+}
+.logo-text {
+    font-family: Raleway, sans-serif;
+    font-style: normal;
+    font-weight: 700;
+    font-size: 26px;
+    line-height: 1.19;
+    letter-spacing: 0.03em;
+    color: #2196F3;
+}
+.logo-title {
+    color: #000000;
 }
 .logo-link:active {
     color: teal;
 }
-.logo-text {
-    font-family: 'Raleway';
-        font-style: normal;
-        font-weight: 700;
-        font-size: 26px;
-        line-height: 1.19;
-        letter-spacing: 0.03em;
-        color: #2196F3;
-}
+
 .nav-link {
     font-style: normal;
     font-weight: 500;
     font-size: 14px;
     line-height: 1.14;
     letter-spacing: 0.02em;
-    color: #212121;
 }
 .nav-link:active {
-    color: #2196F3;
+    color: var(--secondarycolor);
 }
 .contacts-item > .contacts-link {
     font-style: normal;
@@ -30,10 +39,10 @@ body {
         font-size: 14px;
         line-height: 1.14;
         letter-spacing: 0.02em;
-        color: #757575;
+        color: var(--maincolor);
 }
 .contacts-link:active {
-    color: #2196F3;
+    color: var(--secondarycolor);
 }
 .hero {
     background: #2F303A
@@ -46,10 +55,10 @@ body {
         text-align: center;
         letter-spacing: 0.06em;
         text-transform: uppercase;
-        color: #FFFFFF;
+        color: var(--accentcolor);
 }
 .hero-btn {
-    background: #2196F3;
+    background: var(--secondarycolor);
     font-style: normal;
     font-weight: 700;
     font-size: 16px;
@@ -58,7 +67,7 @@ body {
     align-items: center;
     text-align: center;
     letter-spacing: 0.06em;
-    color: #FFFFFF;
+    color: var(--accentcolor);
 }
 .preference-title {
     font-style: normal;
@@ -67,15 +76,13 @@ body {
     line-height: 1.14;
     letter-spacing: 0.03em;
     text-transform: uppercase;
-    color: #212121;
 }
 .preference-text {
     font-style: normal;
-    font-weight: 400;
     font-size: 14px;
     line-height: 24px;
     letter-spacing: 0.03em;
-    color: #757575;
+    color: var(--maincolor);
 }
 .work-title,
 .comand-title {
@@ -85,5 +92,18 @@ body {
     line-height: 1.17;
     text-align: center;
     letter-spacing: 0.03em;
-    color: #212121;
+}
+.comand-name {
+    font-style: normal;
+    font-weight: 500;
+    font-size: 16px;
+    line-height: 1.19;
+    letter-spacing: 0.03em;
+}
+.comand-text {
+    font-style: normal;
+    font-size: 16px;
+    line-height: 1.19;
+    letter-spacing: 0.03em;
+    color: var(--maincolor);
 }
