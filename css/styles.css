@@ -28,7 +28,9 @@ a:active {
 .logo-title {
     color: #000000;
 }
-.logo-link:active {
+.logo-link:active,
+.logo-link:hover,
+.logo-link:focus {
     color: teal;
 }
 .nav-link {
@@ -80,6 +82,7 @@ a:active {
     text-align: center;
     letter-spacing: 0.06em;
     color: var(--accentcolor);
+    cursor: pointer;
 }
 .hero-btn:active {
     visibility: hidden;
@@ -93,7 +96,6 @@ a:active {
     text-transform: uppercase;
 }
 .preference-text {
-    font-style: normal;
     font-size: 14px;
     line-height: 24px;
     letter-spacing: 0.03em;
@@ -116,7 +118,6 @@ a:active {
     letter-spacing: 0.03em;
 }
 .comand-text {
-    font-style: normal;
     font-size: 16px;
     line-height: 1.19;
     letter-spacing: 0.03em;
@@ -130,7 +131,6 @@ a:active {
 }
 .addres-link {
     font-style: normal;
-    font-weight: 400;
     font-size: 14px;
     line-height: 1.71;
     letter-spacing: 0.03em;
@@ -153,7 +153,7 @@ a:active {
     line-height: 1.63;
     text-align: center;
     letter-spacing: 0.03em;
-    color: #212121;
+    cursor: pointer;
 }
 .btn-proects:active,
 .btn-proects:hover,
@@ -166,11 +166,8 @@ a:active {
     font-size: 18px;
     line-height: 2;
     letter-spacing: 0.06em;
-    color: #212121;
 }
 .proects-text {
-    font-style: normal;
-    font-weight: 400;
     font-size: 16px;
     line-height: 1.88;
     letter-spacing: 0.03em;
