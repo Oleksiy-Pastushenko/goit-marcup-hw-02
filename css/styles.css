@@ -33,12 +33,16 @@ a:active {
 .logo-link:focus {
     color: teal;
 }
+.site-nav .link-site-nav {
+    color: var(--secondarycolor);
+}
 .nav-link {
     font-style: normal;
     font-weight: 500;
     font-size: 14px;
     line-height: 1.14;
     letter-spacing: 0.02em;
+    color: #212121;
 }
 .nav-link:active,
 .nav-link:hover,
@@ -110,6 +114,12 @@ a:active {
     text-align: center;
     letter-spacing: 0.03em;
 }
+.comand-section {
+    background: #F5F4FA;
+}
+.comand-items {
+    background: var(--accentcolor);
+}
 .comand-name {
     font-style: normal;
     font-weight: 500;
@@ -159,6 +169,7 @@ a:active {
 .btn-proects:hover,
 .btn-proects:focus {
     background: var(--secondarycolor);
+    color: var(--accentcolor);
 }
 .proects-title {
     font-style: normal;
@@ -166,6 +177,7 @@ a:active {
     font-size: 18px;
     line-height: 2;
     letter-spacing: 0.06em;
+    color: #212121;
 }
 .proects-text {
     font-size: 16px;
